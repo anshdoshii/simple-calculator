@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
       break;
     default: goto fail;
     }
-  printf("%.9g%c%.9g =  %.6g\n\n",valueOne,operator, valueTwo, answer);
+  printf("%.9f%c%.9f =  %.6g\n\n",valueOne,operator, valueTwo, answer);
   goto exit;
  fail:
   printf("Fail.\n");
